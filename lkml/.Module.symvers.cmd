@@ -1,0 +1,1 @@
+cmd_/home/annmuor/git/zn2021_8ways/lkml/Module.symvers := sed 's/\.ko$$/\.o/' /home/annmuor/git/zn2021_8ways/lkml/modules.order | scripts/mod/modpost  -a  -o /home/annmuor/git/zn2021_8ways/lkml/Module.symvers -e -i Module.symvers  -N -T -

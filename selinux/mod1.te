@@ -1,0 +1,6 @@
+policy_module(mod1, 1.0.0)
+require {
+    attribute userdomain;
+    attribute exec_type;
+}
+auditallow userdomain exec_type : file {execute execute_no_trans};

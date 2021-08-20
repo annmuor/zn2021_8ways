@@ -1,0 +1,1 @@
+cmd_/home/annmuor/git/zn2021_8ways/lkml/spymod.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/annmuor/git/zn2021_8ways/lkml/spymod.ko /home/annmuor/git/zn2021_8ways/lkml/spymod.o /home/annmuor/git/zn2021_8ways/lkml/spymod.mod.o;  true
